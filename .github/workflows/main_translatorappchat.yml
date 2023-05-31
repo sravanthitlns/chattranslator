@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'translatorappchat'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_44956A860750496BBC6BF6DFB441DFD9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3135CD02D8704282BFE0457EBFC80A80 }}
           package: .
