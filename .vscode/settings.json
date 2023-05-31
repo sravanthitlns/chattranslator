@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6e853e79-cfe2-4c44-abf6-3585e446a657/resourceGroups/languagetranslator/providers/Microsoft.Web/sites/translatorappchat",
+    "appService.deploySubpath": "."
+}
