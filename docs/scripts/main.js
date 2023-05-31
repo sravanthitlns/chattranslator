@@ -74,7 +74,8 @@ function sendChat(){
 
     let sourceLang;
 
-    // Default language to english if no source_language available    
+    // Default language to english if no source_language available  
+    
     if(translationData === null) {
         sourceLang = 'en';
     } else {
@@ -349,7 +350,7 @@ client.loginImplicitGrant(
     let stateData = JSON.parse(data.state);
     currentConversationId = stateData.conversationId;
     genesysCloudLanguage = stateData.language;
-    
+ 
     // Get Details of current User
     return usersApi.getUsersMe();
 }).then(userMe => {
